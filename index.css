@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+}
+.navbar{
+    height: 60px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.nav-logo{
+    margin-left: 0;
+    height: 60px;
+    width: 80px;
+
+}
+.logo{
+    background-image: url("myntra_logo.png");
+    background-size: cover;
+    /* object-fit: cover; */
+    height: 58px;
+    width: 100%;
+}
+.search-input{
+    /* height:20px; */
+width: 93%;
+border: 1px solid rgba(239, 236, 234, 0.871);
+margin-left: 3px;
+background-color: rgba(239, 236, 234, 0.871);
+}
+.search-bar{
+    height: 25px;
+    width: 33%;
+    border: 2px solid black;
+    border-radius: 20px;
+background-color: rgba(239, 236, 234, 0.871);
+}
+#search-icon{
+    margin-top: 5px;
+margin-left: 5px;
+}
+.heart-bag-user{
+    height: 25px;
+   
+    font-size:.7rem ;
+    font-style: bold;
+    justify-content: space-evenly;
+    
+}
+.customer{
+    width: 30%;
+    
+}
+.items-container{
+    /* it is used to seprate the container in equall size and next row */
+    flex-wrap: wrap;  
+width: 80%;
+margin:40px 10%;
+display: flex;
+justify-content: space-evenly;
+
+}
+.item-container{
+width: 250px;
+}
+.item-image{
+    height: 200px;
+width: 100%;
+}
+.rating{
+font-size: 12px;
+font-weight: 700;
+}
+.company-name{
+    margin-top: 10px;
+font-size: 16px;
+font-weight: bold;
+line-height: 1;
+color: #282c3f;
+margin-bottom: 6px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.itme-name{
+color: #535766;
+font-size: 14px;
+line-height: 1;
+margin-top: 0;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+font-weight: 400;
+display: block;
+}
+.price{
+    margin-top: 8px;
+font-size: 14px;
+line-height: 15px;
+color: #282c3f;
+white-space: nowrap;
+}
+.current-price{
+font-size: 14px;
+font-weight: 700;
+color:#282c3f ;
+}
+.original-price{
+text-decoration: line-through;
+color: #7e818c;
+font-weight: 400;
+margin-left: 5px;
+font-size: 12px;
+}
+.discount{
+color: #ff905a;
+font-weight: 400;
+font-size: 12px;
+margin-left: 5px;
+}
+.add-to-bag{
+    padding: 5px 0px;
+    border: none;
+    margin: 8px 0px 8px;
+    font-size: 15px;
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+background-color: green;
+cursor: pointer;
+}
+.add-to-bag:hover{
+    color: red;
+   box-shadow: 3px 2px  rgb(11, 192, 8);
+}

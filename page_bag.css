@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+}
+
+.bag-page{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.bag-items-container{
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 50px;
+    height: auto;
+    width: 60%;
+    padding: 8px;
+    border: 2px solid rgb(210, 202, 202);
+    border-radius: 5px;
+}
+.bag-item-container{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 5px;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    border: 2px solid rgb(192, 188, 188);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.item-left-part{
+    height: auto;
+    width: 30%;
+}
+.bag-item-img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.price{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-right-part{
+    margin-left: 5px;
+    height: auto;
+    width: 68%;
+}
+.company{
+    font-weight: 400px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}
+.return-period-days{
+    font-size: 1.5rem;
+    font-weight: 300px;
+}
+.delivery-detailes-days{
+    color: green;
+    font-size: 25px;
+}
+.remove-from-cart{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* detailes of order */
+.bag-summary{
+    border:2px solid rgb(235, 227, 227);
+    margin-left: 10px;
+    border-radius: 2px;
+    
+    width: 350px;
+    color: black;
+}
+.price-header{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.price-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0px 1px 0px 2px;
+}
+.total-discount-value{
+    color: green;
+}
+.line{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+}
+.total-amount-tag,.total-amount-value{
+    font-weight: 200px;
+    font-style: calc(Algerian);
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+.btn-place-order{
+    height: 30px;
+    width: 350px;
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+
+}
+
+
